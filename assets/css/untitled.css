@@ -1,0 +1,32 @@
+.auto-width {
+  width: 100%;
+}
+
+@media (min-width: 834px) {
+  .auto-width {
+    width: 50%;
+  }
+}
+
+img {
+  object-fit: cover;
+}
+
+.accordion-button::after {
+  background-image: url("../../assets/img/accordion_icon_open_lg.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/img/accordion_icon_open_lg.svg");
+}
+
+@media (min-width: 992px) {
+  .accordion {
+    --bs-accordion-btn-icon-width: 2.5rem;
+  }
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+

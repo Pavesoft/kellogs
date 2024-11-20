@@ -1,0 +1,267 @@
+@media (max-width: 767px) {
+  .office-top {
+    /*object-fit: cover;*/
+    width: 60%;
+    right: -9%;
+    margin-top: 0px;
+    height: 15%;
+  }
+}
+
+.hero-left-image {
+  object-position: left;
+  width: 100%;
+  object-fit: cover;
+}
+
+.spoon {
+  right: -8%;
+  top: 1%;
+}
+
+.spoon-2 {
+  right: -72px;
+  margin-top: -60px;
+  width: 70% !important;
+}
+
+@media (min-width: 1200px) {
+  .logo-img {
+    width: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ofiice-top {
+    right: -88px;
+    width: 80%;
+    height: 24%;
+    margin-top: -84px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .ofiice-top {
+    right: -0px;
+    width: 70%;
+    height: 27%;
+    margin-top: -88px;
+  }
+}
+
+@media (min-width: 768px) {
+  .desc-text {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-desktop {
+    margin: 24px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .spoon-2 {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .spoon-2 {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .interview-desc {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 762px) {
+  .coffee-bins {
+    width: 15%;
+    top: 10% !important;
+    left: 40%;
+  }
+}
+
+@media (max-width: 763px) {
+  .sticks-mobile {
+    width: 76%;
+    top: 67%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .food-plate-desktop {
+    width: 26%;
+    right: -12% !important;
+    top: 29% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-desc-desktop {
+    margin-right: -157px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-title-desktop {
+    padding-left: 0px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card1-img-desktop {
+    width: 14% !important;
+    right: 35% !important;
+    bottom: -10% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card3-img-desktop {
+    width: 26%;
+    right: 15% !important;
+    bottom: -35% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card2-img-desktop {
+    width: 13%;
+    left: -3%!important;
+    bottom: -20% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .coffee-img-desktop {
+    top: 39% !important;
+    transform: rotate(-13deg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-image-desktop {
+    width: 84%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card2-desc-desktop {
+    margin-right: 63px;
+  }
+}
+
+@media (min-width: 992px) {
+  #accordion-1 {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .milke-cup-img-desktop {
+    width: 41% !important;
+    right: 2% !important;
+    top: 5%!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .interview-img-strawberry {
+    width: 64%;
+    left: 25%;
+    top: 5% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-section {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+.card-bg {
+  padding: 5%;
+  background: var(--bs-primary);
+}
+
+@media (min-width: 768px) {
+  .card-bg {
+    border-radius: 32px;
+  }
+}
+
+.spoon-interview {
+  position: absolute;
+  top: 4%;
+  right: -13%;
+}
+
+@media (min-width: 768px) {
+  .spoon-interview {
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    right: -9%;
+    overflow: visible;
+  }
+}
+
+.bowl-img {
+  position: absolute;
+  left: 72%;
+  top: -7%;
+  width: 24%;
+}
+
+@media (min-width: 1400px) {
+  .bowl-img {
+    top: -14%;
+  }
+}
+
+.milk-bowl {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 50%;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  .milk-bowl {
+    left: 43%;
+    z-index: 0;
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-font-desktop {
+    font-size: 32px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .milke-cup-img-desktop {
+    width: 32% !important;
+    right: 0% !important;
+    top: 3%!important;
+  }
+}
+

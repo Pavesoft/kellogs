@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'KellogSans';
+	src: url(../../assets/fonts/KellogSans-d364d436e8878f913acc9468b7b02995.woff2) format('woff2'),
+	url(../../assets/fonts/KellogSans-f60ad277e2b711056784cb1eaa0c016e.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
