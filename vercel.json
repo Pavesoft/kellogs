@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/interview", "destination": "/interview.html" },
+    { "source": "/philosophy", "destination": "/philosophy.html" }
+  ]
+}
