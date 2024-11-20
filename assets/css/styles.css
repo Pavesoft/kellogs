@@ -191,6 +191,7 @@
   .main-section {
     padding-left: 24px !important;
     padding-right: 24px !important;
+    margin-top: 0px !important;
   }
 }
 
@@ -262,6 +263,28 @@
     width: 32% !important;
     right: 0% !important;
     top: 3%!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .cord-coners-desktop {
+    border-top-left-radius: 24px !important;
+    border-top-right-radius: 24px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-card {
+    margin-top: 48px !important;
+  }
+}
+
+section {
+}
+
+@media (min-width: 768px) {
+  .top-margin-body {
+    margin-top: 0px !important;
   }
 }
 
