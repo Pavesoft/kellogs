@@ -335,3 +335,9 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  .card-margin-mobile {
+    margin-bottom: 75px;
+  }
+}
+
