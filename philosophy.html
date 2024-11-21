@@ -79,7 +79,7 @@
                     <h5 class="text-warning" style="font-family: KellogSans;font-size: 16px;line-height: 24px;">会社の理念</h5>
                 </div>
                 <div class="d-flex flex-column" style="margin-top: 68px;">
-                    <h5 class="fw-semibold text-danger" style="font-size: 16px;">ビジョン</h5>
+                    <h5 class="fw-normal text-danger" style="font-size: 16px;">ビジョン</h5>
                     <h2 class="text-danger">VISION</h2><span class="fw-normal mobile-text desc-text" style="color: var(--bs-secondary);font-size: 18px;padding-top: 0px;margin-top: 24px;/*width: 100%;*/">卓越したブランド力と熱意あふれる社員の力を最大限引き出し、<br>スナックとシリアルの事業を中心に世界で最高のパフォーマンスを誇る企業を目指す</span><img src="assets/img/ingredient1.png" width="12%" style="position: absolute;transform: rotate(75deg);right: 4%;top: 16%;z-index: 1;" class="coffee-bins">
                 </div>
                 <div class="d-flex flex-column desc-text" style="margin-top: 48px;">
@@ -95,20 +95,20 @@
                     <h2 class="text-danger" style="margin-bottom: 28px;">VALUE</h2>
                     <div class="d-flex flex-row align-items-center"><img src="assets/img/Group%2059.svg" width="52px" height="52px">
                         <div class="d-flex flex-column">
-                            <p style="margin-bottom: 0px;font-size: 16px;"><span style="color: rgb(51, 84, 132);">・Integrity（誠実）</span></p>
-                            <p style="margin-bottom: 0px;padding-left: 16px;font-size: 16px;margin-top: 2px;"><span style="color: rgb(51, 84, 132);">私たちは正しい事を正しい方法で行います</span></p>
+                            <p class="text-info" style="margin-bottom: 0px;font-size: 16px;"><span style="color: rgb(51, 84, 132);">・Integrity（誠実）</span></p>
+                            <p class="text-info" style="margin-bottom: 0px;padding-left: 16px;font-size: 16px;margin-top: 2px;">私たちは正しい事を正しい方法で行います</p>
                         </div>
                     </div>
                     <div class="d-flex flex-row align-items-center" style="margin-top: 36px;"><img src="assets/img/Group%2060.svg" width="52px" height="52px">
                         <div class="d-flex flex-column">
-                            <p style="margin-bottom: 0px;font-size: 16px;"><span style="color: rgb(51, 84, 132);">・Accountability（責任感）</span></p>
-                            <p style="margin-bottom: 0px;padding-left: 16px;font-size: 16px;margin-top: 2px;"><span style="color: rgb(51, 84, 132);">私たちは権限を与えられ、オーナーシップをもっ て結果を出します</span></p>
+                            <p class="text-info" style="margin-bottom: 0px;font-size: 16px;"><span style="color: rgb(51, 84, 132);">・Accountability（責任感）</span></p>
+                            <p class="text-info" style="margin-bottom: 0px;padding-left: 16px;font-size: 16px;margin-top: 2px;">私たちは権限を与えられ、オーナーシップをもって結果を出します</p>
                         </div>
                     </div>
                     <div class="d-flex flex-row align-items-center" style="margin-top: 36px;"><img src="assets/img/Group%2061.svg" width="52px" height="52px">
                         <div class="d-flex flex-column">
-                            <p style="margin-bottom: 0px;font-size: 16px;"><span style="color: rgb(51, 84, 132);">・Courage（勇気）</span></p>
-                            <p style="margin-bottom: 0px;padding-left: 16px;font-size: 16px;margin-top: 2px;"><span style="color: rgb(51, 84, 132);">私たちは広い視点で考え、声を上げ、恐れずに新 たな機会を追い続けます</span></p>
+                            <p class="text-info" style="margin-bottom: 0px;font-size: 16px;"><span style="color: rgb(51, 84, 132);">・Courage（勇気）</span></p>
+                            <p class="text-info" style="margin-bottom: 0px;padding-left: 16px;font-size: 16px;margin-top: 2px;">私たちは広い視点で考え、声を上げ、恐れずに新たな機会を追い続けます</p>
                         </div>
                     </div><img src="assets/img/sticks.webp" width="40%" style="position: absolute;transform: rotate(-23deg);right: -20%;" class="sticks-mobile">
                 </div><img class="ofiice-top office-top mobile-text" src="assets/img/kellogs_office.webp" width="630px" style="position: absolute;overflow: clip;object-fit: cover;" loading="lazy">
@@ -149,14 +149,19 @@
             </footer>
         </div>
     </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-            <div class="modal-content"><video width="100%" height="315" controls="">
-                    <source src="./assets/videos/Ceo Inoue-San.mp4" type="video/mp4">
-                </video></div>
+    <div class="modal fade" role="dialog" tabindex="-1" data-bs-backdrop="static" id="modal-1">
+        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center d-flex flex-column justify-content-xxl-center align-items-xxl-center">
+                    <div class="modal-header border-0 modal-btn" style="width: 100%;"><button class="btn-close modal-btn-close" type="button" aria-label="Close" data-bs-dismiss="modal" style="background: url(&quot;assets/img/menu_icon_close.svg&quot;) no-repeat;background-size: contain;"></button></div><video id="modalVideo" class="video-desktop-view" style="margin-top: 5%;" poster="assets/img/CEO.webp" controls="" width="100%">
+                        <source src="./assets/videos/Ceo Inoue-San.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/untitled.js"></script>
 </body>
 
 </html>

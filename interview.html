@@ -62,7 +62,7 @@
                 </div>
             </section>
         </div>
-        <div class="vstack gap-5" style="width: 75%;overflow: hidden;position: relative;">
+        <div class="vstack gap-5" style="width: 75%;overflow: clip;position: relative;">
             <section class="d-md-none d-lg-none d-xl-none d-xxl-none" style="margin-top: 78px;position: fixed;width: 100%;z-index: 99;">
                 <div class="d-flex flex-row justify-content-between align-items-center" style="background: var(--bs-warning);border-radius: 24px;height: 80px;border-top-left-radius: 0;border-top-right-radius: 0;border-bottom-right-radius: 0;padding-top: 0;padding-left: 24px;padding-right: 24px;margin-left: 10%;position: static;">
                     <p class="text-white d-flex justify-content-center align-items-center" style="font-size: 16px;padding-bottom: 0px;margin-bottom: 0px;padding-top: initial;padding-left: 2%;"><img src="assets/img/arrow_white.svg" width="20" height="20">&nbsp; いますぐ応募する</p><a href="https://hrmos.co/pages/kellogg/jobs" style="text-decoration: none;width: 40%;" target="_blank"><button class="btn btn-primary link-warning d-flex flex-row justify-content-around align-items-center" type="button" style="height: 48px;background: white;color: var(--bs-body-bg);border-radius: 10px;margin-top: initial;border-color: var(--bs-warning);padding-right: 6px;padding-left: 6px;width: 100%;">中途採用<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="position: static;width: 24px;height: 24px;/*right: 24px;*/transform: translateX(0px);">
@@ -71,31 +71,46 @@
                             </svg></button></a>
                 </div>
             </section>
-            <section style="background: transparent;padding-right: 0px;padding-left: 0px;margin-top: 156px;" class="main-section body-top-margin-desktop">
+            <section style="background: transparent;padding-right: 0px;padding-left: 0px;margin-top: 156px;position: relative;" class="main-section body-top-margin-desktop">
                 <div style="padding: 24px;position: relative;padding-top: 0;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-dash-lg" style="color: var(--bs-danger);font-size: 24px;margin-top: 24px;">
                         <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"></path>
                     </svg>
                     <p style="color: var(--bs-danger);font-size: 24px;">Interview</p>
                     <p style="color: var(--bs-warning);">社員の声</p>
-                    <div class="d-flex flex-row justify-content-center align-items-center" style="margin-top: 40px;width: 270px;"><a href="#office" style="text-decoration: none;width: 50%;"><button class="btn btn-primary" type="button" style="color: var(--bs-danger);background: white;border: 2px solid var(--bs-danger);text-align: left;margin-right: 8px;width: 100%;">本社</button></a><a href="#factory" style="text-decoration: none;width: 50%;"><button class="btn btn-primary" type="button" style="color: var(--bs-danger);background: white;border: 2px solid var(--bs-danger);text-align: left;margin-left: 8px;width: 100%;">高崎工場</button></a></div><img src="assets/img/FC.webp" style="position: absolute;right: -48%;top: 21%;" width="100%" class="interview-img-strawberry">
+                    <div class="d-none d-md-flex d-lg-flex d-xl-flex d-xxl-flex flex-row justify-content-center align-items-center" style="margin-top: 40px;width: 270px;position: sticky;top: 50px;"><a href="#office" style="text-decoration: none;width: 50%;z-index: 10;"><button class="btn btn-primary text-center" type="button" style="color: var(--bs-danger);background: white;border: 2px solid var(--bs-danger);text-align: left;margin-right: 8px;width: 100%;">本社</button></a><a href="#factory" style="text-decoration: none;width: 50%;z-index: 10;"><button class="btn btn-primary text-center" type="button" style="color: var(--bs-danger);background: white;border: 2px solid var(--bs-danger);text-align: left;margin-left: 8px;width: 100%;">高崎工場</button></a></div><img src="assets/img/FC.webp" style="position: absolute;right: -48%;top: 21%;" width="100%" class="interview-img-strawberry">
                 </div>
+                <div class="d-flex d-print-none d-md-none d-lg-none d-xl-none d-xxl-none flex-row justify-content-start align-items-center" style="margin-top: 40px;position: sticky;top: 158px;background: white;z-index: 3;width: 100%;padding: 12px;padding-left: 20px;"><a href="#office" style="text-decoration: none;z-index: 10;width: 135px;"><button class="btn btn-primary text-center" type="button" style="color: var(--bs-danger);background: white;border: 2px solid var(--bs-danger);text-align: left;margin-right: 8px;width: 100%;">本社</button></a><a href="#factory" style="text-decoration: none;z-index: 10;width: 135px;"><button class="btn btn-primary text-center" type="button" style="color: var(--bs-danger);background: white;border: 2px solid var(--bs-danger);text-align: left;margin-left: 8px;width: 100%;">高崎工場</button></a></div>
                 <div class="d-grid card-bg" style="position: relative;z-index: 1;">
                     <div id="office">
                         <div class="row" style="margin-right: 0px;margin-left: 0px;grid-column-gap: 0px;">
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_09968.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">スナック本部<br>本社</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">これまでのご自身のキャリアについて教えてください。<br><br></span><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;"></span><span style="color: var(--bs-secondary);margin-top: 24px;">元々理系出身で、前職では消費者調査やマーケティングを担当。入社後は日本や韓国のマーケティング、シンガポール駐在者としてアジア・中東・アフリカのマーケティング、⼈材育成に携わり現在は日本でスナックカテゴリーのコマーシャルチームを率いています</span><video width="560" height="315" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_09968.webp" controls="">
+                                    <div class="d-flex flex-row align-items-end" style="position: static;">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_09968.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">スナック本部</span><span class="text-white" style="font-size: 14px;"><br>本社</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;"><span style="color: rgb(225, 150, 47);">これまでのご自身のキャリアについて教えてください。</span></p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">元々理系出身で、前職では消費者調査やマーケティングを担当。入社後は日本や韓国のマーケティング、シンガポール駐在者としてアジア・中東・アフリカのマーケティング、⼈材育成に携わり現在は日本でスナックカテゴリーのコマーシャルチームを率いています。</span>
+                                        </div><video width="560" height="315" style="width: 100%;border-radius: 20px;margin-top: 24px;" controls="" poster="assets/img/7R_09968.webp">
                                             <source src="./assets/videos/Satomi-Gomida.mp4" type="video/mp4">
-                                        </video></div><img src="assets/img/sozaimarugoto_bowlshot_SG.webp" style="width: 200px;position: absolute;bottom: -100px;left: -119px;"><img style="position: absolute;left: -6%;top: -8%;width: 25%;" src="assets/img/Chips.webp">
+                                        </video>
+                                    </div><img src="assets/img/sozaimarugoto_bowlshot_SG.webp" style="width: 200px;position: absolute;bottom: -100px;left: -119px;z-index: -1;"><img style="position: absolute;left: -6%;top: -8%;width: 25%;z-index: -1;" src="assets/img/Chips.webp">
                                 </div>
                             </div>
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_09994.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">マーケティング本部<br>本社</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;position: relative;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">日本ケロッグのマーケティングで働く魅力を教えてください。<br><br></span><span style="color: var(--bs-secondary);margin-top: 24px;">世界的ブランドの成長に貢献できることが魅力です。ビジネスの成長が⼈々の健康的な生活につながるため社会的な意義を感じることが出来ます。責任範囲も広くチャレンジが求められますが、やりがいの大きな仕事に取り組むことが出来ます。</span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_09994.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_09994.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">マーケティング本部</span><span class="text-white" style="font-size: 14px;"><br>本社</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;position: relative;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">日本ケロッグのマーケティングで働く魅力を教えてください。</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">世界的ブランドの成長に貢献できることが魅力です。ビジネスの成長が⼈々の健康的な生活につながるため社会的な意義を感じることが出来ます。責任範囲も広くチャレンジが求められますが、やりがいの大きな仕事に取り組むことが出来ます。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;" poster="assets/img/7R_09994.webp">
                                             <source src="./assets/videos/Yukiko-Shimizu.mp4" type="video/mp4">
-                                        </video><img src="assets/img/bowl.svg" class="bowl-img"></div>
+                                        </video><img src="assets/img/bowl.svg" class="bowl-img" style="z-index: -1;">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -104,18 +119,32 @@
                         <div class="row">
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_09980.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">営業本部<br>本社</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">営業の働き方について教えてください。<br><br><br></span><span style="color: var(--bs-secondary);margin-top: 24px;">直行直帰、リモートワーク、フルフレックスなどを活用し、効率的に業務を進められます。社員⼀⼈⼀⼈に多くの権限が与えられており、オーナーシップを持って働くことができます。仕事とプライベートのバランスもとりやすい環境です。</span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_09980.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_09980.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">営業本部</span><span class="text-white" style="font-size: 14px;"><br>本社</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">営業の働き方について教えてください。</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">直行直帰、リモートワーク、フルフレックスなどを活用し、効率的に業務を進められます。社員⼀⼈⼀⼈に多くの権限が与えられており、オーナーシップを持って働くことができます。仕事とプライベートのバランスもとりやすい環境です。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;/*object-fit: cover;*/" poster="assets/img/7R_09980.webp">
                                             <source src="./assets/videos/Shizuka-Ohara.mp4" type="video/mp4">
-                                        </video></div><img style="position: absolute;right: -5%;top: 8%;width: 40%;" src="assets/img/Chips.webp"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;right: 10%;bottom: -15%;width: 40%;" src="assets/img/CH2.webp">
+                                        </video>
+                                    </div><img style="position: absolute;right: -5%;top: 8%;width: 40%;z-index: -1;" src="assets/img/Chips.webp"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;right: 10%;bottom: -15%;width: 40%;z-index: -1;" src="assets/img/CH2.webp">
                                 </div>
                             </div>
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_00006.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">研究開発部<br>本社</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">研究開発部門ではどのような⼈材を必要としていますか？<br><br></span><span style="color: var(--bs-secondary);margin-top: 24px;">ロジックとパッションをもって、研究開発部だけではなく様々な部署の方とも協業しながら共にチームを引っ張っていける方を必要としています。<br><br><br></span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_00006.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_00006.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">研究開発部</span><span class="text-white" style="font-size: 14px;"><br>本社</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">研究開発部門ではどのような⼈材を必要としていますか？</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">ロジックとパッションをもって、研究開発部だけではなく様々な部署の方とも協業しながら共にチームを引っ張っていける方を必要としています。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;/*object-fit: cover;*/" poster="assets/img/7R_00006.webp">
                                             <source src="./assets/videos/Yoshimitsu-Kamakura.mp4" type="video/mp4">
-                                        </video></div><img style="position: absolute;width: 200px;right: -30%;top: 10%;" src="assets/img/sozaimarugoto_bowlshot_LG.webp"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;width: 200px;left: -30%;top: 44%;" src="assets/img/LG53_granola.png"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;right: 2%;bottom: -15%;width: 40%;transform: rotate(90deg);z-index: 2;" src="assets/img/ingredient1.png">
+                                        </video>
+                                    </div><img style="position: absolute;width: 200px;right: -30%;top: 10%;z-index: -1;" src="assets/img/sozaimarugoto_bowlshot_LG.webp"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;width: 200px;left: -30%;top: 44%;z-index: -1;" src="assets/img/LG53_granola.png"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;right: 2%;bottom: -15%;width: 40%;transform: rotate(90deg);z-index: -1;" src="assets/img/ingredient1.png">
                                 </div>
                             </div>
                         </div>
@@ -124,10 +153,17 @@
                         <div class="row">
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_00035.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">人事総務部<br>本社</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">日本ケロッグの文化や大切にしている価値観について教えてください。<br><br></span><span style="color: var(--bs-secondary);margin-top: 24px;">「最高を追求する文化」の実現を目指し、あらゆることに最善を尽くすことを奨励しています。「誠実」「責任感」「勇気」の価値観を大切にし、お互いの成功を称え合うような仕組みもあります。明るい社風で、価値観は国を超えて浸透しています。</span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_00035.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_00035.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">⼈事総務部</span><span class="text-white" style="font-size: 14px;"><br>本社</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">日本ケロッグの文化や大切にしている価値観について教えてください。</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">「最高を追求する文化」の実現を目指し、あらゆることに最善を尽くすことを奨励しています。「誠実」「責任感」「勇気」の価値観を大切にし、お互いの成功を称え合うような仕組みもあります。明るい社風で、価値観は国を超えて浸透しています。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;/*object-fit: cover;*/" poster="assets/img/7R_00035.webp">
                                             <source src="./assets/videos/Shuwa-Yoneyama.mp4" type="video/mp4">
-                                        </video></div><img style="position: absolute;right: 0;top: 15%;width: 40%;" src="assets/img/CH.png"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;left: -48%;top: 75%;width: 116%;" src="assets/img/sticks.webp"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;right: -12%;bottom: -12%;width: 40%;transform: rotate(-75deg);" src="assets/img/ingredient1.png">
+                                        </video>
+                                    </div><img style="position: absolute;right: 0;top: 15%;width: 40%;z-index: -1;" src="assets/img/CH.png"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;left: -48%;top: 75%;width: 116%;z-index: -1;" src="assets/img/sticks.webp"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;right: -12%;bottom: -12%;width: 40%;transform: rotate(-75deg);z-index: -1;" src="assets/img/ingredient1.png">
                                 </div>
                             </div>
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
@@ -139,18 +175,32 @@
                         <div class="row">
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_09874.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">製造部<br>高崎工場</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">仕事をする上でご自身が大切にしていることを教えてください。<br><br></span><span class="flex-grow-1" style="color: var(--bs-secondary);margin-top: 24px;">安全に作業をすることです。子供から大⼈まで幅広く食べてくださっている製品を作っているからこそ、安全性や品質を意識して生産活動をすることを大切にしています。</span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_09874.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_09874.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">製造部</span><span class="text-white" style="font-size: 14px;"><br>高崎工場</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">仕事をする上でご自身が大切にしていることを教えてください。</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">安全に作業をすることです。子供から大⼈まで幅広く食べてくださっている製品を作っているからこそ、安全性や品質を意識して生産活動をすることを大切にしています。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;/*object-fit: cover;*/" poster="assets/img/7R_09874.webp">
                                             <source src="./assets/videos/Masahiro-Tago.mp4" type="video/mp4">
-                                        </video></div><img style="position: absolute;right: 0;top: 14%;width: 40%;" src="assets/img/CR.webp" width="193"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;left: 0;bottom: -4%;width: 25%;z-index: 1;" src="assets/img/CH2.webp" width="193">
+                                        </video>
+                                    </div><img style="position: absolute;right: 0;top: 14%;width: 40%;z-index: -1;" src="assets/img/CR.webp" width="193"><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;left: 0;bottom: -4%;width: 25%;z-index: -1;" src="assets/img/CH2.webp" width="193">
                                 </div>
                             </div>
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_09916.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">プランニング＆ロジスティクス部<br>高崎工場</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">日本ケロッグの生産管理で働く魅力を教えてください。<br><br></span><span style="color: var(--bs-secondary);margin-top: 24px;">社内の多様な⼈と協力しながら仕事を進められる点です。また、製造から納品まで、全工程に携わることができるため、成果を実感しやすいこともやりがいにつながります。不測の事態では、臨機応変な対応が求められますが、成功時には大きな達成感を得られます。</span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_09916.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_09916.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">プランニング＆ロジス<span class="text-white" style="font-size: 18px;"><br>ティクス部</span></span><span class="text-white" style="font-size: 14px;"><br>高崎工場</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between card-content" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">日本ケロッグの生産管理で働く魅力を教えてください。</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">社内の多様な⼈と協力しながら仕事を進められる点です。また、製造から納品まで、全工程に携わることができるため、成果を実感しやすいこともやりがいにつながります。不測の事態では、臨機応変な対応が求められますが、成功時には大きな達成感を得られます。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;/*object-fit: cover;*/" poster="assets/img/7R_09916.webp">
                                             <source src="./assets/videos/Takayuki-Watanabe.mp4" type="video/mp4">
-                                        </video></div><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;right: -25%;top: 8%;width: 40%;z-index: 0;" src="assets/img/sozaimarugoto_bowlshot_LC.webp">
+                                        </video>
+                                    </div><img class="d-lg-none d-xl-none d-xxl-none" style="position: absolute;right: -25%;top: 8%;width: 40%;z-index: -1;" src="assets/img/sozaimarugoto_bowlshot_LC.webp">
                                 </div>
                             </div>
                         </div>
@@ -159,14 +209,21 @@
                         <div class="row">
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
                                 <div class="d-flex flex-column" style="position: relative;">
-                                    <div class="d-flex flex-row align-items-end"><img class="border rounded-circle" src="assets/img/7R_09903.webp" width="155px" height="155px"><span style="font-size: 18px;color: var(--bs-body-bg);margin-left: 24px;">品質保証部<br>高崎工場</span></div>
-                                    <div class="d-flex flex-column" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;"><span style="color: var(--bs-warning);border-left: 2px solid var(--bs-warning);padding-left: 12px;">日本ケロッグのワークスタイル（働き方）について教えてください。<br><br></span><span style="color: var(--bs-secondary);margin-top: 24px;">私は、産休・育休も取得して復職しています。子育て中ですが、フレックス、在宅勤務もあり、柔軟な働き方が出来ています。会社の理解・サポートは手厚いと思います。<br><br></span><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;object-fit: cover;" poster="assets/img/7R_09903.webp">
+                                    <div class="d-flex flex-row align-items-end">
+                                        <div class="border rounded-circle border-0" style="width: 155px;height: 155px;overflow: hidden;"><img class="border rounded-circle border-0 border-primary" src="assets/img/7R_09903.webp" width="155px" height="155px" style="transform: perspective(0px) scale(1.50);"></div>
+                                        <div style="margin-left: 24px;"><span class="text-white" style="font-size: 18px;">品質保証部</span><span class="text-white" style="font-size: 14px;"><br>高崎工場</span></div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between" style="background: var(--bs-body-bg);border-radius: 20px;padding: 36px;margin-top: 48px;z-index: 1;">
+                                        <div>
+                                            <p class="text-warning card-content-question" style="border-left-width: 2px;border-left-style: solid;padding-left: 12px;padding-bottom: 20px;font-size: 18px;line-height: 26px;letter-spacing: 1.44px;">日本ケロッグのワークスタイル（働き方）について教えてください。</p><span style="color: var(--bs-secondary);margin-top: 24px;line-height: 25px;letter-spacing: 1.12px;">私は、産休・育休も取得して復職しています。子育て中ですが、フレックス、在宅勤務もあり、柔軟な働き方が出来ています。会社の理解・サポートは手厚いと思います。</span>
+                                        </div><video width="560" height="315" controls="" style="width: 100%;border-radius: 20px;margin-top: 24px;/*object-fit: cover;*/" poster="assets/img/7R_09903.webp">
                                             <source src="./assets/videos/Aiko-Fujimoto.mp4" type="video/mp4">
-                                        </video></div><img style="position: absolute;right: -25%;top: 8%;width: 40%;z-index: 0;" src="assets/img/sozaimarugoto_bowlshot_HN.webp"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;left: -15%;bottom: -15%;width: 40%;z-index: 2;transform: rotate(45deg);" src="assets/img/CR1.png">
+                                        </video>
+                                    </div><img style="position: absolute;right: -25%;top: 8%;width: 40%;z-index: -1;" src="assets/img/sozaimarugoto_bowlshot_HN.webp"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;left: -15%;bottom: -15%;width: 40%;z-index: -1;transform: rotate(45deg);" src="assets/img/CR1.png">
                                 </div>
                             </div>
                             <div class="col-md-auto col-lg-6" style="padding: 15px;">
-                                <div class="d-flex flex-column" style="position: relative;height: 100%;"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;right: -25%;top: 30%;width: 65%;" src="assets/img/sozaimarugoto_bowlshot_LG.webp"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;left: 7%;top: 40%;width: 30%;" src="assets/img/CH2.webp"></div>
+                                <div class="d-flex flex-column" style="position: relative;height: 100%;"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;right: -25%;top: 30%;width: 65%;" src="assets/img/sozaimarugoto_bowlshot_LG.webp"><img class="d-none d-lg-block d-xl-block d-xxl-block" style="position: absolute;left: 7%;top: 40%;width: 30%;z-index: -1;" src="assets/img/CH2.webp"></div>
                             </div>
                         </div>
                     </div><img src="assets/img/GF_bowl.webp" class="milk-bowl">
@@ -205,17 +262,22 @@
                         </section>
                     </div>
                 </div>
-            </footer><img src="assets/img/spoon.webp" width="45%" class="spoon-interview" style="z-index: 2;">
+            </footer><img src="assets/img/spoon.webp" width="45%" class="spoon-interview" style="z-index: 1;">
         </div>
     </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-            <div class="modal-content"><video width="100%" height="315" controls="">
-                    <source src="./assets/videos/Ceo Inoue-San.mp4" type="video/mp4">
-                </video></div>
+    <div class="modal fade" role="dialog" tabindex="-1" data-bs-backdrop="static" id="modal-1">
+        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center d-flex flex-column justify-content-xxl-center align-items-xxl-center">
+                    <div class="modal-header border-0 modal-btn" style="width: 100%;"><button class="btn-close modal-btn-close" type="button" aria-label="Close" data-bs-dismiss="modal" style="background: url(&quot;assets/img/menu_icon_close.svg&quot;) no-repeat;background-size: contain;"></button></div><video id="modalVideo" class="video-desktop-view" style="margin-top: 5%;" poster="assets/img/CEO.webp" controls="" width="100%">
+                        <source src="./assets/videos/Ceo Inoue-San.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/untitled.js"></script>
 </body>
 
 </html>
