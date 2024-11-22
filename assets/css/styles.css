@@ -301,13 +301,13 @@ section {
 
 @media (min-width: 992px) {
   .card-content {
-    min-height: 771px;
+    min-height: 801px;
   }
 }
 
 @media (min-width: 1200px) {
   .card-content {
-    min-height: 700px;
+    min-height: 725px;
   }
 }
 
