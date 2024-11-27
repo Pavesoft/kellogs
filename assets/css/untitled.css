@@ -30,6 +30,8 @@ img {
   box-shadow: none;
 }
 
-#office {
+.navigation-links {
+  text-decoration: none;
+  color: inherit;
 }
 

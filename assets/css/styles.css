@@ -16,7 +16,7 @@
 
 .spoon {
   right: -8%;
-  top: 1%;
+  top: 0%;
 }
 
 .spoon-2 {
@@ -142,7 +142,7 @@
 
 @media (min-width: 992px) {
   .card2-img-desktop {
-    width: 13%;
+    width: 12%;
     left: -3%!important;
     bottom: -20% !important;
   }
@@ -170,9 +170,9 @@
 
 @media (min-width: 992px) {
   .milke-cup-img-desktop {
-    width: 41% !important;
-    right: 2% !important;
-    top: 5%!important;
+    width: 20% !important;
+    right: 0% !important;
+    top: 14%!important;
   }
 }
 
@@ -258,9 +258,9 @@
 
 @media (min-width: 1400px) {
   .milke-cup-img-desktop {
-    width: 32% !important;
+    width: 20% !important;
     right: 0% !important;
-    top: 3%!important;
+    top: 12%!important;
   }
 }
 
@@ -338,6 +338,18 @@ section {
 @media (max-width: 768px) {
   .card-margin-mobile {
     margin-bottom: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  .spoon {
+    top: -10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-white-card {
+    padding-left: 7rem !important;
   }
 }
 
